@@ -15,10 +15,10 @@ var app = express();
 // Register configs for the environments where the app functions
 // , these can be stored in a separate file using a module like config
 var APIKeys = {
-    appId           : '374ab13a-1d3e-4058-9ece-243526ab2ea9',
-    clientId        : 'ktetepg8drm5crwg3cyjz58j',
-    clientSecret    : 'snQfFB6xdvDfuxq2KbWTcxTv',
-    appSignature    : '4unkmuhcl5hsqedxmqdf1hjzxqvq5l1fncrt4tedqqy1mzfubgsxmqqja4acktipyknxizaqdhpkz4yo11ciggooghkzpjiwyp3ilvhoidxtj34jz2fh2oowasss4pv5wy5y1pzpzjg13ulfhwhj1medqtcbwt5joyavk1wf2j0hqcghodmjctmqcfvab0rr0gkdaglfcmxmybxsaquvk1ez2digca3mm5eq4yfgclqz2hkzqh234kj4d03xez5',
+    appId           : 'ffb630ae-d3db-48b9-bf15-132825c9a31a',
+    clientId        : 'cpu45e4rr77g937mywk7qn6f',
+    clientSecret    : 'FAtP4KwT6v7s9FVkaDJCBAyD',
+    appSignature    : 'hgpzfwdmnxoprko3qbrmxr5lt00pjg3rk3jxnmwseps1blqcm0lpt2bsdsgk3li3bhbfngjjr2ikbtidqlcpwow3tfshm32wt14uelycoxfci30sc3qb05yzlubqtehkcgr43jj1r0js3ex32j54soki0b44iu2gracxsr3cxf4avjkth5b2swkrv2qg5asngasyngyxlze0o4hwyes4tkqli0h2sczrc3uwudaa3qxr1ksh3vs2iwilwululkd',
     authUrl         : 'https://auth-qa3s1.exacttargetapis.com/v1/requestToken?legacy=1'
 };
 
@@ -79,7 +79,7 @@ app.post('/ixn/triggers/hello-world/', trigger.edit );
 // Abstract Event Handler
 app.post('/fireEvent/:type', function( req, res ) {
     var data = req.body;
-    var triggerIdFromAppExtensionInAppCenter = 'jbdev-ixn-api-v1-test-harness-trigger';
+    var triggerIdFromAppExtensionInAppCenter = 'jb-hello-world-trigger-alanhwang';
     var JB_EVENT_API = 'https://www.exacttargetapis.com/interaction-experimental/v1/events';
     var reqOpts = {};
 
