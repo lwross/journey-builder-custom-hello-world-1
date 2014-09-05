@@ -6,7 +6,7 @@ define([], function(){
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
-                "name": "In-App Promo Offer",
+                "name": "Survey",
                 "description": "Activity simply posts the data into an array for display on the App's home page."
             }
         },
