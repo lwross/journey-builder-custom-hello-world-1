@@ -2,7 +2,7 @@ define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
         "iconSmall": "images/jb-icon.jpg", 
-        "key": "jb-hello-world-activity-alanhwang",
+        "key": "dewalt-in-app-offer-demo",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
@@ -14,7 +14,7 @@ define([], function(){
         "version": "1.0",
         "apiVersion": "1.0",
        "execute": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/execute/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/execute/",
 			"inArguments": [],
 			"outArguments": [],
             "verb": "POST",
@@ -24,7 +24,7 @@ define([], function(){
             "timeout": 3000
 		},
         "save": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/save/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/save/",
 			"verb": "POST",
 			"body": "",
             "format": "json",
@@ -32,7 +32,7 @@ define([], function(){
             "timeout": 3000
         },
         "publish": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/publish/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/publish/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -40,7 +40,7 @@ define([], function(){
             "timeout": 3000
         },
         "validate": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/validate/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/validate/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -49,7 +49,7 @@ define([], function(){
         },
 
         "edit": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/",
             "height": 400,
             "width": 600
         }
