@@ -51,7 +51,7 @@ define([], function(){
         "edit": {
             "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/hello-world/",
             "height": 400,
-            "width": 500
+            "width": 600
         }
 };
 });
