@@ -1,7 +1,7 @@
 define([], function(){      
     return {
-        "icon": "images/jb-icon.jpg",
-        "iconSmall": "images/jb-icon.jpg", 
+        "icon": "images/push.png",
+        "iconSmall": "images/push.png", 
         "key": "dewalt-in-app-offer-demo",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
@@ -14,7 +14,7 @@ define([], function(){
         "version": "1.0",
         "apiVersion": "1.0",
        "execute": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/execute/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/push/execute/",
 			"inArguments": [],
 			"outArguments": [],
             "verb": "POST",
@@ -24,7 +24,7 @@ define([], function(){
             "timeout": 3000
 		},
         "save": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/save/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/push/save/",
 			"verb": "POST",
 			"body": "",
             "format": "json",
@@ -32,7 +32,7 @@ define([], function(){
             "timeout": 3000
         },
         "publish": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/publish/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/push/publish/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -40,7 +40,7 @@ define([], function(){
             "timeout": 3000
         },
         "validate": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/validate/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/push/validate/",
             "verb": "POST",
 			"body": "",
             "format": "json",
@@ -49,7 +49,7 @@ define([], function(){
         },
 
         "edit": {
-            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/promo/",
+            "uri": "https://cnx14-sbd-jb-interaction.herokuapp.com/ixn/activities/push/",
             "height": 400,
             "width": 600
         }
