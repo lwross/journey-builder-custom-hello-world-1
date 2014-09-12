@@ -2,7 +2,7 @@ define([], function(){
     return {
         "icon": "images/push.png",
         "iconSmall": "images/push.png", 
-        "key": "dewalt-in-app-offer-demo",
+        "key": "dewalt-send-push-demo",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
             "en-US": {        
