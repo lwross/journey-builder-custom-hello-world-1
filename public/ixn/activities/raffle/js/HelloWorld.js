@@ -56,7 +56,7 @@ define( function( require ) {
         };
 
 		//TODO: Shouldn't this come from the data?
-        payload.flowDisplayName = 'Hello World';
+        payload.flowDisplayName = 'Enter Raffle';
  
         connection.trigger('getPayload', payload);
     });
