@@ -5,7 +5,7 @@
     "lang": {
         "en-US": {
             "name": "Text Received to Short Code",
-            "description": "Triggered when a text to a short code is received."
+            "description": "Triggered when a text with keyword 'raffle' is sent to short code '12345'. This is for users to opt into a special texting campaign."
         }
     },
     "version": "2.0",
