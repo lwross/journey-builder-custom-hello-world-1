@@ -1,7 +1,7 @@
 {
     "key": "dewalt-sms-received-demo",
-    "icon": "images/push.png",
-    "iconSmall": "images/sms.png", 
+    "icon": "images/smsgreen.png",
+    "iconSmall": "images/smsgreen.png", 
     "lang": {
         "en-US": {
             "name": "Text Received to Short Code",
