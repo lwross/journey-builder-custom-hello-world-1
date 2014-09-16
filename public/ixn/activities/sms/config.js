@@ -1,7 +1,7 @@
 define([], function(){      
     return {
-        "icon": "images/sms.png",
-        "iconSmall": "images/sms.png", 
+        "icon": "images/smsgreen-outbound.png",
+        "iconSmall": "images/smsgreen-outbound.png", 
         "key": "dewalt-survey-demo",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
